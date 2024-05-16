@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Texturina:opsz@12..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron&family=Protest+Revolution&family=Protest+Riot&family=Rubik+80s+Fade&family=Sixtyfour&family=Texturina:opsz@12..72&display=swap');
+
+
+*{
+    font-family: "Rubik+80s+Fade&family=Texturina:opsz@12..72";
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-position: start;
+    background-size: cover;
+}
+.navbar h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 10px rgba(6, 45, 1, 0.406);
+    background-color: rgb(254, 254, 254);
+    /* max-width: 600px; */
+    /* width: max-content; */
+    margin-top: 80px;
+    box-shadow: -10px -10px -30px -5px rgba(23, 12, 183, 0.794);
+    background-image: linear-gradient(153deg, #c6dfdd 25%, #d2bec6 100%);
+    border-radius: 20px;
+}
+
+.quote-container {
+    margin: 20px;
+    
+}
+
+.quote-text {
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(14, 14, 14);
+}
+
+.quote-author {
+    font-size: 20px;
+    color: #6f6d6d;
+    margin-block: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+}
+#type{
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(94, 75, 158);
+    font-family: 'Arial', sans-serif;
+}
+.quote-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #657484;
+    color: white;
+    border: none;
+    border-radius: 10px 30px 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+    background-color: #6399d1;
+}
